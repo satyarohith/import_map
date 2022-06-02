@@ -1,3 +1,3 @@
-import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
+import { serve } from "std/http/server.ts";
 
-serve((req: Request) => new Response("Hello World"));
+serve((req: Request) => new Response("Import maps work!"));
